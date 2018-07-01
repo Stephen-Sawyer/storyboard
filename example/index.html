@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+        <script src="storyboard/storyboard.js"></script>
+        <link href="style/website.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <h1 style="margin:50px 0;text-align: center;">Signup storyboard</h1>
+        <div id="story"></div>
+        <div id="story2"></div>
+        <script>
+            $(document).ready(function(){
+                $("#story").story({
+                    chapters:["step-1.html","step-2.html","step-3.html"],
+                    folder:"signup"
+                });
+                $("#story2").story({
+                    chapters:["step-1.html","step-2.html","step-3.html"],
+                    folder:"signup2"
+                });
+            });
+        </script>
+    </body>
+
+</html>
