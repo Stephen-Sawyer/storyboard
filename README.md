@@ -13,8 +13,8 @@ $("myid").story({chapters:["page1.html","page2.html"], folder:"pages"});
 
 # Moving between chapters
 
-$storyboard.<ContainerID>Next(callback);
+$storyboard.ContainerIDNext(callback);
 
 # Ending the story
 
-$storyboard.<ContainerID>End(callback);
+$storyboard.ContainerIDEnd(callback);
